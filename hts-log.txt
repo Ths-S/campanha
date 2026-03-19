@@ -1,0 +1,12 @@
+HTTrack3.49-6 launched on Thu, 19 Mar 2026 11:06:20 at https://www.advancedbionutritionals.com/DS24/Advanced-Amino/Muscle-Mass-Loss/HD.htm
+(winhttrack https://www.advancedbionutritionals.com/DS24/Advanced-Amino/Muscle-Mass-Loss/HD.htm -O "/home/ths/websites/Teste" -%v )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+11:06:23	Error: 	"Not Found" (404) at link https://www.advancedbionutritionals.com/DS24/Advanced-Amino/Muscle-Mass-Loss/e,location.href (from https://www.advancedbionutritionals.com/DS24/Advanced-Amino/Muscle-Mass-Loss/HD.htm)
+
+HTTrack Website Copier/3.49-6 mirror complete in 3 seconds : 3 links scanned, 1 files written (186179 bytes overall) [49167 bytes received at 16389 bytes/sec], 189194 bytes transferred using HTTP compression in 3 files, ratio 24%, 1.5 requests per connection
+(1 errors, 0 warnings, 0 messages)
