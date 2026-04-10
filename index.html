@@ -68,241 +68,8 @@
         window.UserSegment = 'Control';
         window.iA = false;
     </script>
-    <style type="text/css">
-    /* INJEÇÃO DE CSS INSPIRADA EM HD.html PARA MELHORIA DE DESIGN */
-    html, body {
-        max-width: 100%; 
-        margin: 0; 
-        padding: 0;
-        overflow-x: hidden;
-        background-color: #F8F9FA;
-    }
-
-    /* Atualizando paleta principal usando a base do HD.html */
-    .bg-gradient {
-        background-color: #061122;
-        color: white;
-    }
-
-    h1, h2, h3 { 
-        font-family: "Roboto Condensed", sans-serif; 
-        font-display: swap; 
-        line-height: 1.3em;
-    }
-
-    p, li { 
-        font-family: 'Lora', serif; 
-        font-display: swap; 
-    }
-
-    .btn-orange {
-        background-color: #C66D00;
-        color: #FFF;
-        font-weight: bold;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        transition: transform 0.3s ease-in-out, background-color 0.3s ease;
-        border: none;
-    }
-
-    .btn-orange:hover {
-        background-color: #e67e00;
-        color: #FFF;
-        transform: scale(1.06);
-    }
-
-    .border-bottom-separator {
-        border-bottom: 1px solid #E0E0E0; 
-    }
-
-    .border-separator {
-        border-top: 1px solid #E0E0E0; 
-        border-bottom: 1px solid #E0E0E0; 
-    }
-
-    .btn-style {
-        border-radius: 4px; 
-        min-width: 300px; 
-        text-decoration: none;
-        padding: 15px 40px;
-        font-size: 20px;
-    }
-
-    .comment-section {
-        padding: 30px 0px;
-        background-color: #FFFFFF;
-        box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.05);
-        border-radius: 8px;
-    }
-
-    .content-section {
-        padding-bottom: 30px;
-    }
-
-    .doctor-profile {
-        background-color: white;
-        border-radius: 8px;
-        padding: 30px;
-        box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-    }
-
-    .doctor-image {
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto 15px;
-        position: relative;
-        overflow: hidden;
-    }
-
-    .doctor-bio {
-        font-size: 16px;
-        line-height: 1.6;
-        color: #444;
-    }
-
-    .logo-ref {
-        max-width: 130px;
-    }
-
-    .logo-width {
-        max-width: 250px;
-    }
-
-    .main-container {
-        padding: 40px 0;
-    }
-
-    .text-disclaimer p, .text-disclaimer li {
-        line-height: 1.5em;
-        font-size: 14px;
-        color: #666;
-    }
-
-    .text-sales ol li, .text-sales ul li, .text-sales p {
-        font-size: 18px;
-        line-height: 1.6em;
-    }
-
-    .thumbnail-overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 10;
-        cursor: pointer;
-        background-color: #000;
-        overflow: hidden;
-    }
-
-    .thumbnail-video {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
-
-    .mobile-video {
-        display: none;
-        width: 100%;
-        height: 100%;
-    }
-
-    .vidalytics-video {
-        display: none;
-        width: 100%;
-        height: 100%;
-    }
-
-    .video-container {
-        position: relative;
-        padding-bottom: 56.25%;
-        height: 0;
-        box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-        border-radius: 8px;
-        overflow: hidden;
-        border: 4px solid #fff;
-    }
-
-    .video-container div {
-        object-fit: contain;
-    }
-
-    .video-section {
-        background-color: white;
-        overflow: hidden;
-        margin-bottom: 20px;
-    }
-
-    #VideoControl { 
-        display: block;
-    }
-
-    #VideoMobile {
-        display: none;
-    }
-
-    @media (max-width: 768px) {
-        .comment-section {
-            padding: 30px 20px;
-        }
-        .shadow-border {
-            box-shadow: none;
-        }
-        .doctor-profile {
-            margin-top: 20px;
-        }
-        #VideoControl { 
-            display: none;
-        }
-        #VideoMobile {
-            display: block;
-        }
-        .btn-style {
-            width: 100%;
-            min-width: 100%;
-        }
-    }
-
-    @media (max-width: 580px) {
-        .btn-style {
-            border-radius: 4px; 
-            min-width: 250px; 
-            text-decoration: none;
-            padding: 12px 20px;
-        }
-        .logo-ref {
-            max-width: 100px;
-        }
-        .logo-width {
-            max-width: 200px;
-        }
-    }
-
-    @media (max-width: 479px) {
-        h1 { 
-            font-size: 27px;
-        }
-    }
-
-    @media (max-width: 375px) {
-        h1 { 
-            font-size: 26px;
-        }
-    }
-
-    @media (max-width: 330px) {
-        h1 { 
-            font-size: 22px;
-        }
-    }
-    </style>
-    <link href="https://d35islomi5rx1v.cloudfront.net/ajaxz/2019.2.514/Ajax.css" type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
-    <link href="https://d35islomi5rx1v.cloudfront.net/ajaxz/2019.2.514/Bootstrap/Ajax.Bootstrap.css" type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
-    <link href="https://d35islomi5rx1v.cloudfront.net/ajaxz/2019.2.514/Window.css" type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
+    <link href="https://d35islomi5rx1v.cloudfront.net/ajaxz/2019.2.514/Ajax.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" class="Telerik_stylesheet" />
+    <link href="https://d35islomi5rx1v.cloudfront.net/ajaxz/2019.2.514/Bootstrap/Ajax.Bootstrap.css" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" class="Telerik_stylesheet" />    <link href="https://d35islomi5rx1v.cloudfront.net/ajaxz/2019.2.514/Window.css" type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
     <link href="https://d35islomi5rx1v.cloudfront.net/ajaxz/2019.2.514/Bootstrap/Window.Bootstrap.css" type="text/css" rel="stylesheet" class="Telerik_stylesheet" />
 </head>
 
@@ -1007,7 +774,239 @@
         //]]>
         </script>
     </form>
-    
+        <style type="text/css">
+    /* INJEÇÃO DE CSS INSPIRADA EM HD.html PARA MELHORIA DE DESIGN */
+    html, body {
+        max-width: 100%; 
+        margin: 0; 
+        padding: 0;
+        overflow-x: hidden;
+        background-color: #F8F9FA;
+    }
+
+    /* Atualizando paleta principal usando a base do HD.html */
+    .bg-gradient {
+        background-color: #061122;
+        color: white;
+    }
+
+    h1, h2, h3 { 
+        font-family: "Roboto Condensed", sans-serif; 
+        font-display: swap; 
+        line-height: 1.3em;
+    }
+
+    p, li { 
+        font-family: 'Lora', serif; 
+        font-display: swap; 
+    }
+
+    .btn-orange {
+        background-color: #C66D00;
+        color: #FFF;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: transform 0.3s ease-in-out, background-color 0.3s ease;
+        border: none;
+    }
+
+    .btn-orange:hover {
+        background-color: #e67e00;
+        color: #FFF;
+        transform: scale(1.06);
+    }
+
+    .border-bottom-separator {
+        border-bottom: 1px solid #E0E0E0; 
+    }
+
+    .border-separator {
+        border-top: 1px solid #E0E0E0; 
+        border-bottom: 1px solid #E0E0E0; 
+    }
+
+    .btn-style {
+        border-radius: 4px; 
+        min-width: 300px; 
+        text-decoration: none;
+        padding: 15px 40px;
+        font-size: 20px;
+    }
+
+    .comment-section {
+        padding: 30px 0px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 15px 0px rgba(0,0,0,0.05);
+        border-radius: 8px;
+    }
+
+    .content-section {
+        padding-bottom: 30px;
+    }
+
+    .doctor-profile {
+        background-color: white;
+        border-radius: 8px;
+        padding: 30px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    }
+
+    .doctor-image {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 15px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .doctor-bio {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #444;
+    }
+
+    .logo-ref {
+        max-width: 130px;
+    }
+
+    .logo-width {
+        max-width: 250px;
+    }
+
+    .main-container {
+        padding: 40px 0;
+    }
+
+    .text-disclaimer p, .text-disclaimer li {
+        line-height: 1.5em;
+        font-size: 14px;
+        color: #666;
+    }
+
+    .text-sales ol li, .text-sales ul li, .text-sales p {
+        font-size: 18px;
+        line-height: 1.6em;
+    }
+
+    .thumbnail-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        cursor: pointer;
+        background-color: #000;
+        overflow: hidden;
+    }
+
+    .thumbnail-video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .mobile-video {
+        display: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    .vidalytics-video {
+        display: none;
+        width: 100%;
+        height: 100%;
+    }
+
+    .video-container {
+        position: relative;
+        padding-bottom: 56.25%;
+        height: 0;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        border-radius: 8px;
+        overflow: hidden;
+        border: 4px solid #fff;
+    }
+
+    .video-container div {
+        object-fit: contain;
+    }
+
+    .video-section {
+        background-color: white;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+
+    #VideoControl { 
+        display: block;
+    }
+
+    #VideoMobile {
+        display: none;
+    }
+
+    @media (max-width: 768px) {
+        .comment-section {
+            padding: 30px 20px;
+        }
+        .shadow-border {
+            box-shadow: none;
+        }
+        .doctor-profile {
+            margin-top: 20px;
+        }
+        #VideoControl { 
+            display: none;
+        }
+        #VideoMobile {
+            display: block;
+        }
+        .btn-style {
+            width: 100%;
+            min-width: 100%;
+        }
+    }
+
+    @media (max-width: 580px) {
+        .btn-style {
+            border-radius: 4px; 
+            min-width: 250px; 
+            text-decoration: none;
+            padding: 12px 20px;
+        }
+        .logo-ref {
+            max-width: 100px;
+        }
+        .logo-width {
+            max-width: 200px;
+        }
+    }
+
+    @media (max-width: 479px) {
+        h1 { 
+            font-size: 27px;
+        }
+    }
+
+    @media (max-width: 375px) {
+        h1 { 
+            font-size: 26px;
+        }
+    }
+
+    @media (max-width: 330px) {
+        h1 { 
+            font-size: 22px;
+        }
+    }
+    </style>
+
     <script src="https://www.advancedbionutritionals.com/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="cb0a84cbcc608820e1fd08b6-|49" defer></script>
     <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"569ebfe30f234402abab331df089d63c","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
     <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9df4172b69016451',t:'MTc3NDAwMzE0MA=='};var a=document.createElement('script');a.src='https://www.advancedbionutritionals.com/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script>
